@@ -13,15 +13,15 @@ module.exports = {
     },
     router: {
       type: 'confirm',
-      message: '是否使用react-router'
+      message: '是否使用react-router？'
     },
     store: {
       type: 'confirm',
-      message: '是否使用全局管理工具'
+      message: '是否使用全局管理工具？'
     },
     storeConfig: {
       when: 'store',
-      message: '选择全局管理工具',
+      message: '选择全局管理工具？',
       type: 'list',
       choices: [
         {
@@ -33,6 +33,10 @@ module.exports = {
           value: 'redux'
         }
       ]
+    },
+    less: {
+      type: 'confirm',
+      message: '是否需要支持less？'
     },
     autoInstall: {
       type: 'confirm',
