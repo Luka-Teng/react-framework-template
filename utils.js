@@ -58,7 +58,7 @@ To get started:
   ${yellow(
     `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}${installMsg(
       data
-    )}npm run dev`
+    )}npm run start`
   )}
 `
   console.log(message)
